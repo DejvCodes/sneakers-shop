@@ -37,7 +37,9 @@ const ShoppingBag = () => {
 		return acc;
 	}, 0);
 
-	return <div className='min-h-screen pt-20 lg:px-20 pb-10'>
+	return <div
+		className='min-h-screen pt-20 lg:px-20 pb-10'
+	>
 		{/* Delete Notification */}
 		<div className={`flex items-center bg-white text-gray-800 border border-gray-200 px-5 py-3.5 gap-2.5 fixed top-20 right-6 rounded-md shadow-lg transition-all duration-300 z-1100
 			${deleteFromBagNotification
